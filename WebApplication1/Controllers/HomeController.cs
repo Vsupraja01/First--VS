@@ -12,6 +12,10 @@ namespace WebApplication1.Controllers
         {
             int a = 10;
             int b = 20;
+            if (a > b)
+            {
+                Console.WriteLine("False");
+            }
             return View();
         }
     }
